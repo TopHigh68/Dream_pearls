@@ -1,0 +1,23 @@
+import { createRouter, createWebHistory } from 'vue-router'
+import AccueilViews from '../views/AccueilViews.vue'
+import Layoutviews from '../components/Layoutviews.vue'
+
+const router = createRouter({
+  history: createWebHistory(import.meta.env.BASE_URL),
+  routes: [
+    {
+      path: '/',
+      component: Layoutviews,
+      children:[
+         {
+          path: '/',
+          name: 'Accueil',
+          component: AccueilViews,
+        },
+
+      ]
+    },
+  ],
+})
+
+export default router
