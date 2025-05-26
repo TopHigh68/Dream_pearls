@@ -2,7 +2,7 @@
   <header class="bg-white shadow-md py-4 px-6 flex justify-between items-center">
     <!-- Logo -->
     <div class="text-2xl font-bold text-purple-700">
-      <img src="" alt="Dreams Pearls" class="h-10 w-auto inline-block mr-2" />
+      <!-- <img src="" alt="Dreams Pearls" class="h-10 w-auto inline-block mr-2" /> -->
       Dreams Pearls
     </div>
 
